@@ -102,7 +102,7 @@ class STTEngine implements AudioReceiveHandler {
             // Configure request with local raw PCM speechRecognition
             RecognitionConfig config = RecognitionConfig.newBuilder()
                     .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16)
-                    .setLanguageCode("en-US")
+                    .setLanguageCode("de-DE")
                     .setSampleRateHertz(16000)
                     .build();
             RecognitionAudio audio = RecognitionAudio.newBuilder()
